@@ -1,0 +1,14 @@
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "CurrencyType",
+				"referenceId": "AFN"
+			},
+			"ConversionRate":"1.0",
+			"DecimalPlaces":"2",
+			"IsActive":"true",
+			"IsoCode":"AFN"
+		}
+	]
+}

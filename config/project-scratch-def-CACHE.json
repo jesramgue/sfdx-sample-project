@@ -1,0 +1,21 @@
+{
+	"edition": "Developer",
+	"orgName": "Sample_Project_Cached_Orgs",
+	"features": [
+		"DebugApex",
+		"MultiCurrency"
+	],
+	"settings": {
+		"securitySettings": {
+			"sessionSettings": {
+				"forceRelogin": false
+			}
+		},
+		"lightningExperienceSettings": {
+			"enableS1DesktopEnabled": true
+		},
+		"apexSettings": {
+			"enableCompileOnDeploy": true
+		}
+	}
+} 
