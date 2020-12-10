@@ -1,0 +1,22 @@
+<project xmlns:ivy="antlib:org.apache.ivy.ant" default="init">
+
+	<property name="buildtools.dir" value="${user.home}/buildtools"/>
+	<import file="${buildtools.dir}/common.xml"/>
+
+	<property name="force.app.dir" location="${basedir}/force-app"/>
+	<property name="force.app.dep.dir" location="${force.app.dir}/deps"/>
+	<property name="mocks.target.dir" location="${force.app.dep.dir}/apexmocks"/>
+
+	<target name="-init-deps" extensionOf="init" depends="-make-dirs,-copy-deps"/>
+
+	<target name="-make-dirs">
+		<delete dir="${force.app.dep.dir}" />
+		<mkdir dir="${force.app.dep.dir}"/>
+	</target>
+
+	<target name="-copy-deps">
+		<copy todir="${mocks.target.dir}">
+			<fileset dir="${dep.apexmocks.dir}" includes="**"/>
+		</copy>
+	</target>
+</project>

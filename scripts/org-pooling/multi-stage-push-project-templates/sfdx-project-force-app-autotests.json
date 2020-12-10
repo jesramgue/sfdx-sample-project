@@ -1,0 +1,15 @@
+{
+	"namespace": "",
+	"sfdcLoginUrl": "https://login.salesforce.com",
+	"sourceApiVersion": "48.0",
+	"packageDirectories": [
+		{
+			"path": "force-app",
+			"default": true
+		},
+		{
+			"path": "force-app-autotests",
+			"default": false
+		}
+	]
+}

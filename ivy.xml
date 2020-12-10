@@ -1,0 +1,7 @@
+<ivy-module version="2.0">
+    <info organisation="ffdc" module="sample-project"/>
+    <dependencies>
+    	<dependency org="ffdc" name="ffdctools" rev="3.5.4"/>
+        <dependency org="ffdc" name="apexmocks" rev="4.0.0"/>
+    </dependencies>
+</ivy-module>

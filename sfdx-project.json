@@ -1,0 +1,22 @@
+{
+    "namespace": "ffsample",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "SFDX Sample Project",
+            "ancestorVersion": "2020.300.0.8",
+            "versionName": "Summer 2020",
+            "versionNumber": "2020.301.0.NEXT"
+        },
+        {
+            "path": "force-app-autotests",
+            "default": false
+        }
+    ],
+    "packageAliases": {
+        "SFDX Sample Project": "0Ho4Q000000001iSAA"
+    }
+}
